@@ -67,6 +67,8 @@ hr{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: 100%; 
+    height: 100%;
 }
 
 .page:hover{
@@ -74,9 +76,11 @@ hr{
     cursor: pointer;
 }
 
+
+
 .imageSection{
     width: 100%;
-    height: 80%;
+    height: 100%;
 }
 
 .image{
@@ -95,8 +99,22 @@ hr{
     text-align: center;
 }
 
-.yugin{
+.yugin, a{
     text-decoration: none;
-    color: inherit;
+    color: rgb(222, 21, 54);
     font-weight: bold;
+}
+
+@media(max-width:600px){
+    .title{
+        font-size: x-small;
+    }
+
+    .heading{
+        font-size: 2rem;
+    }
+
+    .pageSection{
+        grid-template-columns: auto auto;
+    }
 }
