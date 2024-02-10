@@ -141,8 +141,25 @@ button{
     padding: 5px;
     width: 15%;
     font-family: outfit;
-    color: white;
     background-color: red;
+    color: white;
     border: none;
     border-radius: 3px;
+}
+
+@media(max-width:600px){
+    .postcard1, .postcard2, .postcard3, .postcard4, .postcard5{
+        width: 80%;
+        height: 80%;
+    }
+
+    .crying, .happy{
+        width: fit-content;
+    }
+
+    .gif2{
+        width: 70%;
+        height: 50%;
+        object-fit: cover;
+    }
 }
