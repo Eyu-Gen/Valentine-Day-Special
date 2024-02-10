@@ -3,10 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Protest+Riot&display=swap" rel="stylesheet">    
     <link rel="icon" type="image/png" href="./images/propose.png">
+    <link rel="stylesheet" href="stylePropose.css">
+    <script src="jsPropose.js"></script>
     <title>Propose Day</title>
 </head>
 <body>
-    <h1>Work In Progress!1</h1>
+    <main>
+        <div class="heroSection">
+            <div id="postcard1" class="postcard1">
+                <p class="line">
+                    I've been holding onto something for a while now, and I can't keep it to myself any longer.
+                    Every time I'm around you, my heart races, and I feel a warmth I've never experienced before.
+                    Your presence brings me a sense of joy and comfort that I can't explain.
+                </p>
+                <div class="buttonSection">
+                    <button onclick="next1()" class="next1">Next</button>
+                </div>
+            </div>
+            <div id="postcard2" class="postcard2">
+                <p class="line">
+                    I've come to realize that these feelings run deeper than mere admiration.
+                    They're feelings of affection and admiration that I've developed for you over time.
+                     I find myself thinking about you constantly, imagining what it would be like to share
+                     moments together, to laugh, and to create memories.
+                </p>
+                <div class="buttonSection">
+                    <button onclick="next2()" class="next2">Next</button>
+                </div>
+            </div>
+            <div id="postcard3" class="postcard3">
+                <p class="line">
+                    I've never felt this way about anyone else before, and it's both exhilarating and scary.
+                     Exhilarating because being around you makes me feel alive, and scary because
+                     I fear the vulnerability that comes with confessing these emotions.
+                     But I can't deny the truth anymore
+                </p>
+                <div class="buttonSection">
+                    <button onclick="next3()" class="next3">Next</button>
+                </div>
+            </div>
+            <div id="postcard4" class="postcard4">
+                <p class="line">
+                    You mean more to me than words can express. Your kindness, your laughter, your presence -
+                    they all resonate with me on a level I never thought possible.
+                    I want to take this chance to be honest with you and share the depth of my feelings.
+                </p>
+                <div class="buttonSection">
+                    <button onclick="next4()" class="next4">Next</button>
+                </div>
+            </div>
+            <div id="postcard5" class="postcard5">
+                <p class="line">
+                    So here I am, laying my heart bare before you. I don't know what the future holds,
+                    but I do know that I want you to be a part of it.
+                    Will you give us a chance to explore what could be?
+                </p>
+                <div class="buttonSection">
+                    <button onclick="no()" class="no">No</button>
+                    <button onclick="yes()" class="yes">Yes</button>
+                </div>
+            </div>
+            <div id="crying" class="crying">
+                <img src="./images/crying.gif" alt="" class="gif1">
+                <h1>OHHH NO!!!</h1>
+            </div>
+            <div id="happy" class="happy">
+                <img src="./images/happy.gif" alt="" class="gif2">
+                <h1>HAPPY HAPPY HAPPY!!</h1>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
