@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main{
+    text-align: center;
+    width: 50%;
+    font-family: Protest Riot;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(253, 215, 221);
+    box-shadow: 1px 1px 10px red;
+}
