@@ -22,3 +22,9 @@ main{
     background-color: rgb(253, 215, 221);
     box-shadow: 1px 1px 10px red;
 }
+
+@media(max-width:600px){
+    main, img{
+        width: 80%;
+    }
+}
