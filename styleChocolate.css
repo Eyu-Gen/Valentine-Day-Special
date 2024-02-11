@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(107, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.heroSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.heading{
+    font-family: outfit;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.chocolateSection{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 30px;
+    width: 90%;
+    height: max-content;
+}
+
+.choco{
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgb(198, 129, 129);
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chocolate{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.congrats{
+    text-align: center;
+    font-family: Protest Riot;
+    color: white;
+    text-shadow: 1px 1px 10px red;
+}
+
+#overlap{
+    border-radius: 10px;
+    background-image: url(./images/chocolates/logo.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 100%;
+}
+
+#overlap:hover{
+    display: none;
+}
+
+@media(max-width:600px){
+    .choco{
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .chocolate{
+        height: 100%;
+    }
+
+}
