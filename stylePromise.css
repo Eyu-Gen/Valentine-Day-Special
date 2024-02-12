@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/promiseBG.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.heroSection{
+    background-color: rgba(255, 255, 255, 0.658);    
+    padding: 20px;
+    margin: 50px;
+    font-size: 20px;
+    font-family: outfit;
+    border-radius: 20px;
+    box-shadow:  2px 2px 10px red;
+}
+
+.para{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.items, ::marker{
+    color: red;
+    font-weight: bold;
+}
+
+li{
+    list-style-position: outside;
+    color: grey;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+@media(max-width:800px){
+    body{
+        background-image: url(./images/promiseMobileBG.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .heroSection{
+        box-shadow: 2px 2px 10px blue;
+    }
+
+    .items, ::marker{
+        color: blue;
+        width: 100%;
+    }
+}
