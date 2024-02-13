@@ -13,7 +13,7 @@ body{
 .heroSection{
     width: 40%;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     background: linear-gradient(to right, pink, lightblue, lightgreen);
     font-family: outfit;
     box-shadow: 2px 2px 10px black;

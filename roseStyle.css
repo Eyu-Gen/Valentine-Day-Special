@@ -1,5 +1,5 @@
-html, body {
-    background: rgb(254, 171, 185);
+body {
+    background: rgb(249, 172, 184);
     display: flex;
     justify-content: center;
     align-items: center;

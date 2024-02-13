@@ -41,6 +41,10 @@ li{
     margin-bottom: 10px;
 }
 
+.name{
+    color: red;
+}
+
 @media(max-width:800px){
     body{
         background-image: url(./images/promiseMobileBG.jpg);

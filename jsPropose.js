@@ -1,4 +1,4 @@
-function next1() {
+function next() {
     var div = document.getElementById('postcard1');
     div.style.zIndex = '-5';
 }
