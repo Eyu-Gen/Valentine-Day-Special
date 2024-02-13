@@ -30,7 +30,10 @@ h1{
 
 @media(max-width:800px){
     body{
-        background-image: url(./images/hugMobileBG.gif);
+        background: url(./images/hugMobileBG.gif);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
         align-items: center;
         justify-content: center;
